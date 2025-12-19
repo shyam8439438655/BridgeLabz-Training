@@ -1,17 +1,17 @@
 import java.util.Scanner;
 public class AvgMarks {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.print("Enter marks for Maths: ");
-        int maths = sc.nextInt();
+        int maths = scanner.nextInt();
         System.out.print("Enter marks for Physics: ");
-        int physics = sc.nextInt();
+        int physics = scanner.nextInt();
         System.out.print("Enter marks for Chemistry: ");
-        int chemistry = sc.nextInt();
+        int chemistry = scanner.nextInt();
         int total = maths + physics + chemistry;
         double average = total / 3;
         System.out.println("The Average Marks is: " + average + "%");
-        sc.close();
+        scanner.close();
 
     }
 }

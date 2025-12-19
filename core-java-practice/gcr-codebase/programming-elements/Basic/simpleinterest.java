@@ -1,5 +1,5 @@
 
-public class simpleinterest {
+public class SimpleInterest {
     public static void main(String[] args) {
         double principal = 1000; // Principal amount
         double rate = 5; // Annual interest rate in percentage

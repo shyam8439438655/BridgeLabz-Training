@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class avgofthreenumbers {
+public class AvgOfThreeNumbers {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter first number: ");
@@ -12,4 +12,5 @@ public class avgofthreenumbers {
         System.out.println("The average of " + num1 + ", " + num2 + ", and " + num3 + " is: " + average);
         sc.close();
     }
+    
 }

@@ -1,10 +1,10 @@
 import java.util.Scanner;
 public class DistanceAndMiles {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         
         // Take distance in feet
-        double distanceInFeet = sc.nextDouble();
+        double distanceInFeet = scanner.nextDouble();
 
         // Convert feet to yards
         double yards = distanceInFeet / 3;
@@ -16,6 +16,6 @@ public class DistanceAndMiles {
         System.out.println("The distance in feet is " + distanceInFeet +
                            " while in yards is " + yards +
                            " and miles is " + miles);
-        sc.close();
+        scanner.close();
     }
 }

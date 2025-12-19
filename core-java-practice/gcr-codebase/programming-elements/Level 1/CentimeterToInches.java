@@ -1,9 +1,9 @@
 import java.util.Scanner;
 public class CentimeterToInches {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         // Take height in centimeters
-        double heightCm = sc.nextDouble();
+        double heightCm = scanner.nextDouble();
 
         // Convert cm to inches
         double totalInches = heightCm / 2.54;
@@ -14,7 +14,7 @@ public class CentimeterToInches {
 
         // Output
         System.out.println("Your Height in cm is " + heightCm + " while in feet is " + feet  + inches);
-        sc.close();
+        scanner.close();
 
     }
 }

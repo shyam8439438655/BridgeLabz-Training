@@ -1,14 +1,12 @@
 import java.util.Scanner;
 
-public class addtwonumbers {
+public class AddTwoNumbers {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter first number: ");
-        int num1 = scanner.nextInt();
-        System.out.print("Enter second number: ");
-        int num2 = scanner.nextInt();   
+        Scanner sc = new  Scanner(System.in);
+        int num1 = sc.nextInt();
+        int num2 = sc.nextInt();
         int sum = num1 + num2;
-        System.out.println("The sum of " + num1 + " and " + num2 + " is: " + sum);
-        scanner.close();
+        System.out.println("The sum of the two numbers is " + sum);
+        sc.close();
     }
 }
