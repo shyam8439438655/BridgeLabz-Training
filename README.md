@@ -12,6 +12,7 @@ It documents my *day-wise learning progress*, hands-on practice, and structured 
 
 The repository is organized in a modular and clean way.  
 Currently, all foundational Core Java work resides in the *core-java-practice* branch.
+```
 
 BridgeLabz-Training/
 │
@@ -33,7 +34,7 @@ BridgeLabz-Training/
 │
 └── README.md
 
-
+```
 
 ## 🛠 Phase 1: Basics & Environment Setup
 
@@ -178,3 +179,4 @@ This repository will continue to evolve as I progress further in my BridgeLabz j
 
 
 *Keep Learning & Keep Building!*
+
