@@ -84,6 +84,16 @@ BridgeLabz-Training/
 ```
 
 
+📅 22-Dec-2025 (Monday)
+
+```
+
+- Implemented String in Core Java
+- Practiced: String & Scenerio Based Problems
+- Solved Level 1, Level 2 and Level 3 of Strings
+
+```
+
 🎯 Learning Outcomes
 
 ```
