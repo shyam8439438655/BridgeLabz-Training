@@ -89,9 +89,8 @@ BridgeLabz-Training/
 ```
 
 - Implemented String in Core Java
-- Practiced: String & Scenerio Based Problems
+- Practiced: String, Scenerio Based Problems & Exception handling
 - Solved Level 1, Level 2 and Level 3 of Strings
-
 ```
 
 🎯 Learning Outcomes
