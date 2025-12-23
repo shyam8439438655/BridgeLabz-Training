@@ -22,7 +22,7 @@ BridgeLabz-Training/
 │ ├── Level-2/
 │ └── control-flows/
 | |__ arrays/
-│
+│ |__string/
 ├── leet-code-codebase/
 │ └── core-java/
 │
@@ -121,3 +121,4 @@ This repository will continue to evolve as I progress further in my BridgeLabz j
 
 
 *Keep Learning & Keep Building!*
+
