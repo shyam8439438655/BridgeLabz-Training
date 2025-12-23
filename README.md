@@ -14,18 +14,20 @@ The repository is organized in a modular and clean way.
 Currently, all foundational Core Java work resides in the *core-java-practice* branch.
 
 ```
-BridgeLabz-Training/
-├── core-java-practice/
+📂 BridgeLabz-Training/
+├── 📂 core-java-practice/
 │ └── gcr-codebase/
 │ └── programming-elements/
 │ ├── Level-1/
 │ ├── Level-2/
 │ └── control-flows/
 | |__ arrays/
+| |__ string/
+|
 │
-├── leet-code-codebase/
+├── 📂 leet-code-codebase/
 │ └── core-java/
-│
+|__ 📂 scenario-based/
 └── README.md
 
 ```
@@ -91,6 +93,15 @@ BridgeLabz-Training/
 - Implemented String in Core Java
 - Practiced: String, Scenerio Based Problems & Exception handling
 - Solved Level 1, Level 2 and Level 3 of Strings
+```
+
+
+📅 22-Dec-2025 (Monday)
+
+```
+- Implemented String and Exception handling in Core Java
+- Practiced: Scenerio Based Problems
+
 ```
 
 🎯 Learning Outcomes
