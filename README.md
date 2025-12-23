@@ -14,15 +14,16 @@ The repository is organized in a modular and clean way.
 Currently, all foundational Core Java work resides in the *core-java-practice* branch.
 
 ```
-BridgeLabz-Training/
-├── core-java-practice/
-│ └── gcr-codebase/
+📂 BridgeLabz-Training/
+├── 📂 core-java-practice/
+│ └── 📂 gcr-codebase/
 │ └── programming-elements/
 │ ├── Level-1/
 │ ├── Level-2/
 │ └── control-flows/
-| |__ arrays/
-│
+| |__ 📂 arrays/
+│ |__ 📂 string/
+|
 ├── leet-code-codebase/
 │ └── core-java/
 │
@@ -93,6 +94,14 @@ BridgeLabz-Training/
 - Solved Level 1, Level 2 and Level 3 of Strings
 ```
 
+
+📅 23-Dec-2025 (Tuesday)
+
+```
+- Implemented Arrays and 2D Arrays in Core Java
+- Solved Few Scenerio Based problem based on real life
+
+```
 🎯 Learning Outcomes
 
 ```
