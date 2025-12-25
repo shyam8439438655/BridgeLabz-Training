@@ -21,10 +21,17 @@ Currently, all foundational Core Java work resides in the *core-java-practice* b
 │ ├── Level-1/
 │ ├── Level-2/
 │ └── control-flows/
+|
 | |__ 📂 arrays/
+| |
 │ |__ 📂 string/
+| |    |__ 📂extra-string/
+|
+| |__ 📂 methods/
+| |
 |
 ├── leet-code-codebase/
+|
 │ └── core-java/
 │
 └── README.md
@@ -84,6 +91,7 @@ Currently, all foundational Core Java work resides in the *core-java-practice* b
 
 ```
 
+📅 Week 2:
 
 📅 22-Dec-2025 (Monday)
 
@@ -92,16 +100,41 @@ Currently, all foundational Core Java work resides in the *core-java-practice* b
 - Implemented String in Core Java
 - Practiced: String, Scenerio Based Problems & Exception handling
 - Solved Level 1, Level 2 and Level 3 of Strings
+
 ```
 
 
 📅 23-Dec-2025 (Tuesday)
 
 ```
+
 - Implemented Arrays and 2D Arrays in Core Java
 - Solved Few Scenerio Based problem based on real life
 
 ```
+
+📅 24-Dec-2025 (Wednesday)
+
+```
+
+- Implemented Methods in Core Java
+- Practiced: Defining methods, calling methods, passing parameters, returning values
+- Explored: Method overloading, scope of variables, static vs non‑static methods
+- Solved Level 1, Level 2 of Methods
+
+```
+
+
+📅 25-Dec-2025 (Thursday)
+
+```
+
+- Additionally Practiced: Extras-String Problems (Palindrome, Reverse, Anagram, Substring Occurrences, etc.)
+
+
+```
+
+
 🎯 Learning Outcomes
 
 ```
