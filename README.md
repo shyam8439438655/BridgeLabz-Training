@@ -17,10 +17,10 @@ Currently, all foundational Core Java work resides in the *core-java-practice* b
 📂 BridgeLabz-Training/
 ├── 📂 core-java-practice/
 │ └── 📂 gcr-codebase/
-│ └── programming-elements/
+│ └── 📂 programming-elements/
 │ ├── Level-1/
 │ ├── Level-2/
-│ └── control-flows/
+│ └── 📂 control-flows/
 |
 | |__ 📂 arrays/
 | |
