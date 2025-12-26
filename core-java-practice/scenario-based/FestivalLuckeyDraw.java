@@ -22,7 +22,7 @@ public class FestivalLuckeyDraw {
                 break;
             }
 
-            // SUPER EASY CONDITION:
+            // Check divisibility
             boolean divisibleBy3 = (num % 3 == 0);
             boolean divisibleBy5 = (num % 5 == 0);
 
