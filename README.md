@@ -125,7 +125,7 @@ Currently, all foundational Core Java work resides in the *core-java-practice* b
 ```
 
 
-📅 25-Dec-2025 (Thursday)
+📅 26-Dec-2025 (Friday)
 
 ```
 
