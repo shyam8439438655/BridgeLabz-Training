@@ -1,53 +1,41 @@
+import java.util.Arrays;
 import java.util.Scanner;
-
 public class Anagram {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
-    // Method to check if two strings are anagrams
-    public static boolean isAnagram(String str1, String str2) {
-        // Remove spaces and convert to lowercase
+        System.out.print("Enter the first string: ");
+        String str1 = scanner.nextLine();
+
+        System.out.print("Enter the second string: ");
+        String str2 = scanner.nextLine();
+
+        if (areAnagrams(str1, str2)) {
+            System.out.println("\"" + str1 + "\" and \"" + str2 + "\" are anagrams.");
+        } else {
+            System.out.println("\"" + str1 + "\" and \"" + str2 + "\" are not anagrams.");
+        }
+
+        scanner.close();
+    }
+
+    public static boolean areAnagrams(String str1, String str2) {
+        // Remove whitespace and convert to lowercase
         str1 = str1.replaceAll("\\s", "").toLowerCase();
         str2 = str2.replaceAll("\\s", "").toLowerCase();
 
-        // If lengths are different, not an anagram
+        // If lengths are different, they cannot be anagrams
         if (str1.length() != str2.length()) {
             return false;
         }
 
-        // Count frequency of characters
-        int[] freq = new int[256]; // ASCII size
+        // Convert strings to char arrays and sort them
+        char[] charArray1 = str1.toCharArray();
+        char[] charArray2 = str2.toCharArray();
+        Arrays.sort(charArray1);
+        Arrays.sort(charArray2);
 
-        for (int i = 0; i < str1.length(); i++) {
-            freq[str1.charAt(i)]++;
-            freq[str2.charAt(i)]--;
-        }
-
-        // Check if all counts are zero
-        for (int i = 0; i < 256; i++) {
-            if (freq[i] != 0) {
-                return false;
-            }
-        }
-
-        return true;
-    }
-
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        // Input two strings
-        System.out.print("Enter first string: ");
-        String str1 = sc.nextLine();
-
-        System.out.print("Enter second string: ");
-        String str2 = sc.nextLine();
-
-        // Check anagram
-        if (isAnagram(str1, str2)) {
-            System.out.println("The strings are Anagrams.");
-        } else {
-            System.out.println("The strings are NOT Anagrams.");
-        }
-
-        sc.close();
+        // Compare sorted char arrays
+        return Arrays.equals(charArray1, charArray2);
     }
 }
