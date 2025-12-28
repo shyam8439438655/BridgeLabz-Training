@@ -130,9 +130,9 @@ Currently, all foundational Core Java work resides in the *core-java-practice* b
 ```
 - Implemented Strings in Core Java
 - Additionally Practiced: Extras-String Problems (Palindrome, Reverse, Anagram, Substring Occurrences, etc.)
-- Prracticed : Extras Built-in-function Problems
--
-
+- Practiced : Extras Built-in-function Problems
+- Each program is **modular** with separate functions for input, logic, and output.  
+- Purpose: strengthen Java basics, improve problem-solving.
 
 ```
 
