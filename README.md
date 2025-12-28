@@ -128,8 +128,10 @@ Currently, all foundational Core Java work resides in the *core-java-practice* b
 📅 26-Dec-2025 (Friday)
 
 ```
-
+- Implemented Strings in Core Java
 - Additionally Practiced: Extras-String Problems (Palindrome, Reverse, Anagram, Substring Occurrences, etc.)
+- Prracticed : Extras Built-in-function Problems
+-
 
 
 ```
