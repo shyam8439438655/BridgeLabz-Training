@@ -140,7 +140,8 @@ Currently, all foundational Core Java work resides in the *core-java-practice* b
 📅 29-Dec-2025 (Monday)
 
 ```
-- Employee Wage Computation Problem - Calculate daily and monthly wages based on hours worked and rate.
+- Employee Wage Computation Problem : Calculate daily and monthly wages based on hours worked and rate.
+- Line Comparison Problem : Compare two lines based on their lengths to determine equality or difference.
 - Each question is crafted to enhance problem-solving, critical      thinking, and practical application skills.  
 - The purpose of these questions is to connect theoretical knowledge with real-world scenarios.  
 
