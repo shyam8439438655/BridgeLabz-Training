@@ -5,7 +5,7 @@ public class SnakeAndLadder {
 
         System.out.println("Welcome to Snake and Ladder Game...");
 
-        // USE CASE 1: Start Position = 0
+        // USE CASE 1
         int player1 = 0;
         int player2 = 0;
         int diceCount = 0;
