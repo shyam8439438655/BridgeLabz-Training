@@ -15,18 +15,30 @@ Currently, all foundational Core Java work resides in the *core-java-practice* b
 
 ```
 BridgeLabz-Training/
-├── core-java-practice/
-│ └── gcr-codebase/
-│ └── programming-elements/
-│ ├── Level-1/
-│ ├── Level-2/
-│ └── control-flows/
-| |__ arrays/
-│ |__string/
-├── leet-code-codebase/
-│ └── core-java/
 │
-└── README.md
+├── core-java-practice/            (Branch & Folder Name)
+│   │
+│   ├── gcr-codebase/
+│   │   ├── programming-elements/
+│   │   └── control-flow/
+|   |   ├── Array/
+|   |   ├── String/
+|   |   ├── Methods/
+│   │
+│   ├── leet-code-codebase/
+│   │
+│   └── scenario-based/
+│
+├── oops-practice/                 (Branch & Folder Name)
+│   │
+│   ├── gcr-codebase/
+│   │   ├── class and objects/
+│   │
+│   ├── scenario-based/
+│   │
+│   └── leet-code-codebase/
+│
+├── reviews/  
 
 ```
 
@@ -92,6 +104,52 @@ BridgeLabz-Training/
 - Practiced: String, Scenerio Based Problems & Exception handling
 - Solved Level 1, Level 2 and Level 3 of Strings
 ```
+
+📅 23-Dec-2025 (Tuesday)
+
+```
+- Implemented Arrays and 2D Arrays in Core Java
+- Solved Few Scenerio Based problem based on real life
+```
+
+📅 24-Dec-2025 (Wednesday)
+
+```
+- Implemented Methods in Core Java
+- Practiced: Defining methods, calling methods, passing parameters, returning values
+- Explored: Method overloading, scope of variables, static vs non‑static methods
+- Solved Level 1, Level 2 of Methods
+```
+
+📅 26-Dec-2025 (Friday)
+
+```
+- Implemented Strings in Core Java
+- Additionally Practiced: Extras-String Problems (Palindrome, Reverse, Anagram, Substring Occurrences, etc.)
+- Practiced : Extras Built-in-function Problems
+- Each program is **modular** with separate functions for input, logic, and output.  
+- Purpose: strengthen Java basics, improve problem-solving.
+```
+
+📅 29-Dec-2025 (Monday)
+
+```
+- Employee Wage Computation Problem : Calculate daily and monthly wages based on hours worked and rate.
+- Line Comparison Problem : Compare two lines based on their lengths to determine equality or difference.
+- Each question is crafted to enhance problem-solving, critical      thinking, and practical application skills.  
+- The purpose of these questions is to connect theoretical knowledge with real-world scenarios.  
+```
+
+📅 30-Dec-2025 (Tuesday)
+
+```
+- Solved a Snake and Ladder problem with a real‑life scenario.
+- Learned the basics of OOP: class and object.
+- Practiced programs using attributes and methods.
+- Learned to break big problems into small, easy parts.
+```
+
+
 
 🎯 Learning Outcomes
 
