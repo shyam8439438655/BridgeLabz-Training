@@ -149,7 +149,48 @@ BridgeLabz-Training/
 - Learned to break big problems into small, easy parts.
 ```
 
+📅 31-Dec-2025 (Wednesday)
 
+```
+Constructors, Access Modifiers & Inheritance
+
+Implemented various types of constructors (default, parameterized, copy constructors)
+Explored access modifiers (public, private, protected, default) and their impact on encapsulation
+Mastered inheritance concepts including single and multilevel inheritance
+Solved problems demonstrating constructor chaining and access control mechanisms
+```
+
+📅 01-Jan-2026 (Thursday)
+
+```
+Keywords, instanceof Operator & Advanced String Handling
+
+Explored Java keywords including this, super, static, and final
+Practiced the instanceof operator for runtime type checking
+Solved problems combining OOP concepts with string manipulation
+Completed scenario-based challenges integrating multiple OOP principles
+```
+
+📅 02-Jan-2025 (Friday)
+
+```
+Object Modeling & UML Diagrams
+
+Learned to design and draw Class diagrams representing object relationships
+Created Object diagrams to visualize instance-level interactions
+Developed Sequence diagrams to illustrate method calls and object lifecycles
+Solved object modeling problems applying design thinking and architectural patterns
+```
+
+📅 03-Jan-2025 (Saturday)
+
+```
+*Inheritence & its types with interface
+
+Learned about inheritence and its types with interface
+Solved problems based on inheritence and interface
+Solved few scenerio based questions based on OOPS concept
+```
 
 🎯 Learning Outcomes
 
