@@ -21,9 +21,9 @@ BridgeLabz-Training/
 │   ├── gcr-codebase/
 │   │   ├── programming-elements/
 │   │   └── control-flow/
-|   |   ├── Array/
-|   |   ├── String/
-|   |   ├── Methods/
+|   |   ├── array/
+|   |   ├── string/
+|   |   ├── methods/
 │   │
 │   ├── leet-code-codebase/
 │   │
@@ -32,7 +32,11 @@ BridgeLabz-Training/
 ├── oops-practice/                 (Branch & Folder Name)
 │   │
 │   ├── gcr-codebase/
+|   |   ├── constructors-and-access-modifiers
 │   │   ├── class and objects/
+|   |   ├── inheritance/
+|   |   ├── keyword-and-intances/
+|   |   ├── object-modeling
 │   │
 │   ├── scenario-based/
 │   │
