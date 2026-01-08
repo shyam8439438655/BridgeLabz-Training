@@ -29,7 +29,7 @@ BridgeLabz-Training/
 │   │
 │   └── scenario-based/
 │
-├── oops-practice/                 (Branch & Folder Name)
+├── oops-practice/                 
 │   │
 │   ├── gcr-codebase/
 |   |   ├── constructors-and-access-modifiers
@@ -37,6 +37,15 @@ BridgeLabz-Training/
 |   |   ├── inheritance/
 |   |   ├── keyword-and-intances/
 |   |   ├── object-modeling
+│   │
+│   ├── scenario-based/
+│   │
+│   └── leet-code-codebase/
+│
+├── dsa-practice/                 
+│   │
+│   ├── gcr-codebase/
+|   |   ├── linked-list/
 │   │
 │   ├── scenario-based/
 │   │
@@ -99,6 +108,8 @@ BridgeLabz-Training/
 
 ```
 
+📅 Week 2: Advanced Core Java Concepts
+
 
 📅 22-Dec-2025 (Monday)
 
@@ -134,6 +145,10 @@ BridgeLabz-Training/
 - Each program is **modular** with separate functions for input, logic, and output.  
 - Purpose: strengthen Java basics, improve problem-solving.
 ```
+
+
+📅 Week 3: Object-Oriented Programming Principles
+
 
 📅 29-Dec-2025 (Monday)
 
@@ -195,6 +210,48 @@ Learned about inheritence and its types with interface
 Solved problems based on inheritence and interface
 Solved few scenerio based questions based on OOPS concept
 ```
+
+
+📅 Week 4: OOPs and DSA Fundamentals
+
+📅 05-Jan-2025 (Monday)
+```
+Encapsulation, Polymorphism, Interface & Abstract Class
+
+- Understood core concepts like encapsulation, polymorphism, interfaces, and abstract classes
+- Solved multiple coding problems based on these OOP concepts
+- Practiced scenario-based questions to strengthen OOP logic
+```
+
+📅 06-Jan-2025 (Tuesday)
+```
+Core Java Practice – Scenario-Based Problems
+
+- Solved various problems related to Arrays, Strings, Methods, and Exception Handling
+- Focused on writing reusable methods and managing edge cases using exceptions
+- Enhanced overall Core Java understanding through practical coding exercises
+```
+
+📅 07-Jan-2025 (Wednesday)
+``
+OOPs Practice with Story-Based Scenarios
+
+- Worked on multiple story-driven problem statements
+- Designed complete Java programs applying all major OOP concepts
+- Effectively used Encapsulation, Inheritance, Polymorphism, Abstraction, and Interfaces in real-life use cases
+```
+
+📅 08-Jan-2025 (Thursday)
+
+```
+Linked List
+
+- Learned about Linked List data structure and its types: Singly, Doubly, and Circular Linked List
+- Implemented operations like insertion, deletion, and traversal on linked lists
+Improved understanding of dynamic data structures and reference handling
+```
+
+
 
 🎯 Learning Outcomes
 
