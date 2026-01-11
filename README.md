@@ -16,7 +16,7 @@ Currently, all foundational Core Java work resides in the *core-java-practice* b
 ```
 BridgeLabz-Training/
 │
-├── core-java-practice/            (Branch & Folder Name)
+├── core-java-practice/        
 │   │
 │   ├── gcr-codebase/
 │   │   ├── programming-elements/
@@ -248,10 +248,18 @@ Linked List
 
 - Learned about Linked List data structure and its types: Singly, Doubly, and Circular Linked List
 - Implemented operations like insertion, deletion, and traversal on linked lists
-Improved understanding of dynamic data structures and reference handling
+- Improved understanding of dynamic data structures and reference handling
 ```
 
+📅 09-Jan-2025 (Friday)
 
+```
+Data Structures (Linked List) & Scenario-Based Practice
+
+- Worked on various scenario-driven problem statements
+- Developed complete Java applications applying major OOP principles
+- Solved problems involving different variations of linked lists
+```
 
 🎯 Learning Outcomes
 
