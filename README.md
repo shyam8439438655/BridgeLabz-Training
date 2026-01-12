@@ -260,6 +260,15 @@ Data Structures (Linked List) & Scenario-Based Practice
 - Developed complete Java applications applying major OOP principles
 - Solved problems involving different variations of linked lists
 ```
+📅 Week 4: OOPs practic
+
+📅 12-Jan-2025 (Monday)
+. Module review session and Scenerio based Problems
+
+- Solved several story-based problem statements
+- Designed and developed fully working Java programs using all major OOPS concepts
+- Participated in comprehensive module review session with mentor for feedback and improvement
+
 
 🎯 Learning Outcomes
 
