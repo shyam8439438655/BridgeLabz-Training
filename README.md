@@ -46,6 +46,8 @@ BridgeLabz-Training/
 │   │
 │   ├── gcr-codebase/
 |   |   ├── linked-list/
+|   |   ├── sorting-algorithms/
+|   |   ├── stack-queue/
 │   │
 │   ├── scenario-based/
 │   │
@@ -272,6 +274,24 @@ Data Structures (Linked List) & Scenario-Based Practice
 - Participated in comprehensive module review session with mentor for feedback and improvement
 ```
 
+📅 13-Jan-2025 (Tuesday)
+```
+Scenerio based Problems & Git flow practice
+
+Solved several story-based problem statements
+Designed and developed fully working Java programs using all major OOPS concepts
+Revised the github flow with practicals and implementations
+```
+
+📅 14-Jan-2025 (Wednesday)
+
+```
+DSA Fundamentals & Sorting techniques
+
+Learned about different sorting techniques
+Practiced with few questions on Leet Code
+Learned and Solved problems based on Stack, Queue & Hashmap
+```
 🎯 Learning Outcomes
 
 ```
