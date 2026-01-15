@@ -1,4 +1,5 @@
-import java.util.*;
+import java.util.HashMap;
+import java.util.Scanner;
 
 class TwoSum {
     public static void main(String[] args) {
@@ -13,7 +14,7 @@ class TwoSum {
 
         int target = input.nextInt();
 
-        HashMap<Integer, Integer> map = new HashMap<>();
+        HashMap<Integer, Integer> map = new HashMap<Integer, Integer>();
 
         for (int i = 0; i < n; i++) {
             int need = target - arr[i];
@@ -22,11 +23,9 @@ class TwoSum {
                 System.out.println(map.get(need) + " " + i);
                 return;
             }
-
             map.put(arr[i], i);
         }
 
         System.out.println("No pair found");
-        
     }
 }
