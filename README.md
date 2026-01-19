@@ -32,6 +32,7 @@ BridgeLabz-Training/
 ├── oops-practice/                 
 │   │
 │   ├── gcr-codebase/
+|   |   ├── address-book-syatem/
 |   |   ├── constructors-and-access-modifiers
 │   │   ├── class and objects/
 |   |   ├── inheritance/
@@ -46,6 +47,7 @@ BridgeLabz-Training/
 │   │
 │   ├── gcr-codebase/
 |   |   ├── linked-list/
+|   |   ├── search-strings-filereader/
 |   |   ├── sorting-algorithms/
 |   |   ├── stack-queue/
 │   │
@@ -292,6 +294,39 @@ Learned about different sorting techniques
 Practiced with few questions on Leet Code
 Learned and Solved problems based on Stack, Queue & Hashmap
 ```
+
+📅 15-Jan-2025 (Thursday)
+
+```
+Topic: Sorting Techniques & Weekly Reflection
+
+- Explored various sorting algorithms in detail.
+- Solved multiple problems to strengthen understanding of sorting methods.
+- Attended a weekly review session with an external mentor for feedback and improvement.
+```
+
+📅 16-Jan-2025 (Friday)
+
+```
+Topic: Sorting Techniques & OOP Mini Project
+
+- Continued practicing different sorting algorithms.
+- Applied concepts in problem-solving exercises.
+- Advanced the Address Book System project up to Use Case 3.
+```
+
+📅 17-Jan-2025 (Saturday)
+
+```
+Topic: Searching Algorithms & OOP Mini Project
+
+- Learned about Linear Search and Binary Search techniques.
+
+- Practiced problems involving search algorithms, StringBuilder, StringBuffer, and FileReader.
+
+- Progressed the Address Book System project up to Use Case 5.
+```
+
 🎯 Learning Outcomes
 
 ```
