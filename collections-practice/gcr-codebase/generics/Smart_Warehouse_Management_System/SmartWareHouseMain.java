@@ -1,5 +1,6 @@
+package Smart_Warehouse_Management_System;
 // SmartWarehouseMain.java
-public class SmartWarehouseMain {
+public class SmartWareHouseMain {
     public static void main(String[] args) {
 
         Storage<Electronics> electronicsStorage = new Storage<>();
