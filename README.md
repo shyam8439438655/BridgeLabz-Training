@@ -47,6 +47,7 @@ BridgeLabz-Training/
 │   │
 │   ├── gcr-codebase/
 |   |   ├── linked-list/
+|   |   ├── runtime-analysis/
 |   |   ├── search-strings-filereader/
 |   |   ├── sorting-algorithms/
 |   |   ├── stack-queue/
@@ -55,6 +56,17 @@ BridgeLabz-Training/
 │   │
 │   └── leet-code-codebase/
 │
+├── collections-practice/
+|   |
+|   ├── gcr-codebase/
+|   |   ├── generics/
+|   |
+|   |
+|   |
+|   |
+|   ├── scenario-based/
+|   |
+|   └── leet-code-codebase/
 ├── reviews/  
 
 ```
@@ -321,10 +333,40 @@ Topic: Sorting Techniques & OOP Mini Project
 Topic: Searching Algorithms & OOP Mini Project
 
 - Learned about Linear Search and Binary Search techniques.
-
 - Practiced problems involving search algorithms, StringBuilder, StringBuffer, and FileReader.
-
 - Progressed the Address Book System project up to Use Case 5.
+```
+
+📅 Week 6: DSA Practice & Collections Fundamentals
+
+📅 19-Jan-2026 (Monday)
+
+```
+Runtime Analysis & Scenario based DSA problems
+
+- Solved complex scenario-based questions requiring DSA problem-solving approaches
+- Deepened knowledge of Runtime Analysis
+- Strengthened analytical and logical reasoning skills through challenging problems
+```
+
+📅 20-Jan-2026 (Tuesday)
+
+```
+Generics fundamentals & Scenario based DSA problems
+
+- Solved complex scenario-based questions requiring DSA problem-solving approaches
+- Deepened knowledge of Generics in Collection
+- Strengthened analytical and logical reasoning skills through challenging problems
+```
+
+📅 21-Jan-2026 (Wednesday)
+
+```
+Generics based problems
+
+- Solved complex scenario-based questions requiring Generics problem-solving approaches
+- Deepened knowledge of Generics in Collection
+- Improved understanding of collections and exceptions
 ```
 
 🎯 Learning Outcomes
@@ -355,4 +397,5 @@ This repository will continue to evolve as I progress further in my BridgeLabz j
 
 
 *Keep Learning & Keep Building!*
+
 
