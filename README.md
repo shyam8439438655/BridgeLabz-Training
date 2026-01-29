@@ -60,9 +60,9 @@ BridgeLabz-Training/
 |   |
 |   ├── gcr-codebase/
 |   |   ├── generics/
-|   |
-|   |
-|   |
+|   |   ├── exceptions/
+│   │   ├── java-streams/
+│   │   └── generics/
 |   |
 |   ├── scenario-based/
 |   |
@@ -369,6 +369,37 @@ Generics based problems
 - Improved understanding of collections and exceptions
 ```
 
+📅 22-Jan-2026 (Thursday)
+
+```
+Collections & Scenerio based problem
+
+Solved complex scenario-based questions requiring collections problem-solving approaches
+Solved problems based on Collection
+Improved understanding of collections
+```
+
+📅 23-Jan-2026 (Friday)
+
+```
+Java streams & Scenerio based problem
+
+Solved complex scenario-based questions requiring collections problem-solving approaches
+Solved problems based on java streams
+```
+
+🗓 Week 7: Collections
+
+📅 27-Jan-2025 (Tuesday)
+
+```
+Exception handling and Scenerio based Problems
+
+Solved several story-based problem statements
+Deepened knowledge of Exception handling
+Solved complex problems based on Exceptions
+```
+
 🎯 Learning Outcomes
 
 ```
@@ -397,5 +428,6 @@ This repository will continue to evolve as I progress further in my BridgeLabz j
 
 
 *Keep Learning & Keep Building!*
+
 
 
