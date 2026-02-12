@@ -67,6 +67,33 @@ BridgeLabz-Training/
 |   ├── scenario-based/
 |   |
 |   └── leet-code-codebase/
+
+├── IOprogramming-practice/
+|   |
+|   ├── gcr-codebase/
+|   |   ├── CSVdatahandling/
+|   |   └── JSONdata/
+|   └── scenario-based/
+|
+├── java8-features-practice/
+|   |
+|   ├── gcr-codebase/
+|   |   ├── StreamAPI/
+|   |   ├── LambdaExpressions/
+|   |   ├── FunctionalInterface/
+|   |   └── Collectors/
+|   |
+|   └── scenario-based/
+|
+├── deisgn-pattern-practice/
+|   |
+|   ├── gcr-codebase/
+|   |   └── LibraryManagementSystem/
+|
+├── multi-threading-practice/
+|   |
+|   └── gcr-codebase/
+|
 ├── reviews/  
 
 ```
@@ -428,6 +455,7 @@ This repository will continue to evolve as I progress further in my BridgeLabz j
 
 
 *Keep Learning & Keep Building!*
+
 
 
 
