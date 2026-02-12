@@ -414,31 +414,41 @@ Collections & Scenerio based problem
 - Solved problems based on java streams
 ```
 
+📅  Week 7: Collections
 
-📅 28-Jan-2026 (Wednesday)
+📅 26-Jan-2026 (Monday)
+
+```
+- Created JavaStreams directory in collections-practice
+- Implemented Stream API examples: File Copy, Serialization, Pipe, etc.
+= Practiced stream-based file and data handling in gcr-codebase/JavaStreams
+```
+
+📅 27-Jan-2026 (Tuesday)
+
+```
+- Created ExceptionHandling directory in collections-practice
+- Implemented examples using try-catch, finally, throw, and throws
+- Practiced Custom Exceptions (InvalidAgeException, InsufficientBalanceException) and Nested Try-Catch
+```
+
+📅 28-Feb-2026 (Wednesday)
 
 ```
 - Implemented Core Java scenarios: LexicalTwist (Vowels/Consonants logic) and CleanseAndInvert (String manipulation)
 - Practiced scenario-based problems in Core Java folder
-- Implemented Collections scenarios: Restaurant (HashMap & Exception Handling) and BackupScheduler (PriorityQueue)
+- Implemented Collections scenarios: Restaurant (HashMap & Exception Handling) and BackupScheduler (Priority Queue)
 ```
 
-📅 30-Jan-2026 (Friday)
+📅 30-jan-2026 (Friday)
 
 ```
 - Created Regex directory in collections-practice
 - Implemented RegexPractice: username validation, email extraction, censoring, and pattern matching
-- Created JUnit directory with Maven structure
-- Implemented and tested classes: Calculator, StringUtils, ListManager, DatabaseConnection, FileProcessor, EvenTest, ExceptionTest
+- Created JUnit directory with Maven structure and tested classes: Calculator, StringUtils, ListManager, DatabaseConnection, FileProcessor, EvenTest, ExceptionTest
 ```
 
-📅 01-Feb-2026 (Sunday)
-
-```
-- Implemented OOPS scenario: FutureLogistics (GoodsTransport, BrickTransport, TimberTransport)
-- Practiced vehicle selection and charge calculation logic
-- Solved scenario-based OOPS problems
-```
+📅 Week 8: Advanced Collections & Scenarios
 
 📅 02-Feb-2026 (Monday)
 
@@ -534,6 +544,7 @@ This repository will continue to evolve as I progress further in my BridgeLabz j
 
 
 *Keep Learning & Keep Building!*
+
 
 
 
