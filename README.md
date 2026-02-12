@@ -401,31 +401,110 @@ Generics based problems
 ```
 Collections & Scenerio based problem
 
-Solved complex scenario-based questions requiring collections problem-solving approaches
-Solved problems based on Collection
-Improved understanding of collections
+- Solved complex scenario-based questions requiring collections problem-solving approaches
+- Solved problems based on Collection
+- Improved understanding of collections
 ```
 
 📅 23-Jan-2026 (Friday)
 
 ```
-Java streams & Scenerio based problem
-
-Solved complex scenario-based questions requiring collections problem-solving approaches
-Solved problems based on java streams
+- Java streams & Scenerio based problem
+- Solved complex scenario-based questions requiring collections problem-solving approaches
+- Solved problems based on java streams
 ```
 
-🗓 Week 7: Collections
 
-📅 27-Jan-2025 (Tuesday)
+📅 28-Jan-2026 (Wednesday)
 
 ```
-Exception handling and Scenerio based Problems
-
-Solved several story-based problem statements
-Deepened knowledge of Exception handling
-Solved complex problems based on Exceptions
+- Implemented Core Java scenarios: LexicalTwist (Vowels/Consonants logic) and CleanseAndInvert (String manipulation)
+- Practiced scenario-based problems in Core Java folder
+- Implemented Collections scenarios: Restaurant (HashMap & Exception Handling) and BackupScheduler (PriorityQueue)
 ```
+
+📅 30-Jan-2026 (Friday)
+
+```
+- Created Regex directory in collections-practice
+- Implemented RegexPractice: username validation, email extraction, censoring, and pattern matching
+- Created JUnit directory with Maven structure
+- Implemented and tested classes: Calculator, StringUtils, ListManager, DatabaseConnection, FileProcessor, EvenTest, ExceptionTest
+```
+
+📅 01-Feb-2026 (Sunday)
+
+```
+- Implemented OOPS scenario: FutureLogistics (GoodsTransport, BrickTransport, TimberTransport)
+- Practiced vehicle selection and charge calculation logic
+- Solved scenario-based OOPS problems
+```
+
+📅 02-Feb-2026 (Monday)
+
+```
+- Implemented StreamBuzz (Creator Statistics) using Collections
+- Practiced Reflection API with 12 examples (methods, fields, proxy, DI)
+- Implemented 12 Annotation examples including built-in and custom annotations
+```
+
+📅 03-Feb-2026 (Tuesday)
+
+```
+- Implemented DSA scenarios: RobotAuditSystem and FlightManagementSystem
+- Practiced Custom Exceptions and Exception Handling
+- Created Java 8 features branch
+- Implemented 10 Stream API examples (TopMovies, DoctorAvailability, InsuranceClaims, etc.)
+```
+
+📅 04-Feb-2026 (Wednesday)
+
+```
+- Implemented Lambda Expression examples (SmartLight, ShopSort, AlertFilter, etc.)
+- Practiced Functional Interfaces with 13 examples
+- Implemented custom, static, default, and marker interfaces
+```
+
+📅 05-Feb-2026 (Thursday)
+
+```
+- Implemented Collectors examples: Grouping, Counting, Summing, Averaging, Summarizing
+- Practiced StudentGroup, WordFreq, OrderSum, AvgSalary, BookStats
+- Implemented Collections scenarios:
+      FoodDeliverySystem (Queue)
+      ClassroomAttendance (Set)
+      LeaveManagement (Map)
+      MusicPlaylist (LinkedList & Stack)
+```
+
+📅 07-Feb-2026 (Saturday)
+
+```
+- Implemented VesselNavigation scenario
+- Developed Vessel, VesselUtil, and UserInterface modules
+- Practiced vessel performance tracking
+```
+
+📅 08-Feb-2026 (Sunday)
+
+```
+- Implemented LibraryManagementSystem using Observer Pattern
+- Practiced Factory Pattern with UserFactory
+- Implemented Multithreading systems:
+- BankSystem (Concurrent Transactions)
+```
+
+📅 09-Feb-2026 (Monday)
+
+```
+- Refactored HealthClinicApp project structure
+- Implemented "View All Patients" feature
+- Implemented Collections scenarios
+- JobPortal (Custom Exceptions)
+- EventAnalyzer (Streams & Maps)
+- BankAccount (JUnit Testing)
+```
+
 
 🎯 Learning Outcomes
 
@@ -455,6 +534,7 @@ This repository will continue to evolve as I progress further in my BridgeLabz j
 
 
 *Keep Learning & Keep Building!*
+
 
 
 
