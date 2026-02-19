@@ -516,6 +516,29 @@ Collections & Scenerio based problem
 ```
 
 
+📅 Week 9: Advanced Scenarios & System Design
+
+-----
+Employee Wage & Address Book Enhancements
+
+16-Feb-2026 (Sunday):
+
+```
+Scenario-Based: Worked on Employee Wage computation problem involving procedural and object-oriented approaches.
+```
+
+17-Feb-2026 (Monday):
+
+```
+Address Book System: Implemented advanced features (UC11-UC18) for the AddressBook system in oops-practice/scenario-based:
+Sorting: Added functionality to sort contacts by City, State, and Zip code.
+File IO: Implemented manual Read/Write operations for Text (.txt), CSV (.csv), and JSON (.json) files without external libraries.
+JSON Server: Integrated with a local JSON Server using Java's HttpClient for RESTful operations (GET/POST).
+Database: Implemented JDBC connectivity to MySQL for persistent storage of contact details.
+Multi-threading: Refactored all IO operations to execute in separate threads for non-blocking UI.
+```
+
+
 🎯 Learning Outcomes
 
 ```
@@ -544,6 +567,7 @@ This repository will continue to evolve as I progress further in my BridgeLabz j
 
 
 *Keep Learning & Keep Building!*
+
 
 
 
