@@ -122,7 +122,8 @@ class EmpWageBuilder implements EmpWageBuilderInterface {
     }
 }
 
-// CompanyEmpWage class 
+
+// UC 9: Class to store company wage details and results 
 class CompanyEmpWage {
 
     private String companyName;
