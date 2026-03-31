@@ -533,7 +533,7 @@ Employee Wage & Address Book Enhancements
 16-Feb-2026 (Sunday):
 
 ```
-Scenario-Based: Worked on Employee Wage computation problem involving procedural and object-oriented approaches.
+Scenario-Based- Worked on Employee Wage computation problem involving procedural and object-oriented approaches.
 ```
 
 17-Feb-2026 (Monday):
