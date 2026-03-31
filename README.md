@@ -47,6 +47,7 @@ BridgeLabz-Training/
 │   │
 │   ├── gcr-codebase/
 |   |   ├── linked-list/
+|   |   ├── runtime-analysis/
 |   |   ├── search-strings-filereader/
 |   |   ├── sorting-algorithms/
 |   |   ├── stack-queue/
@@ -64,6 +65,44 @@ BridgeLabz-Training/
 │   │
 │   └── leet-code-codebase/
 │
+├── collections-practice/
+|   |
+|   ├── gcr-codebase/
+|   |   ├── generics/
+|   |   ├── exceptions/
+│   │   ├── java-streams/
+│   │   └── generics/
+|   |
+|   ├── scenario-based/
+|   |
+|   └── leet-code-codebase/
+
+├── IOprogramming-practice/
+|   |
+|   ├── gcr-codebase/
+|   |   ├── CSVdatahandling/
+|   |   └── JSONdata/
+|   └── scenario-based/
+|
+├── java8-features-practice/
+|   |
+|   ├── gcr-codebase/
+|   |   ├── StreamAPI/
+|   |   ├── LambdaExpressions/
+|   |   ├── FunctionalInterface/
+|   |   └── Collectors/
+|   |
+|   └── scenario-based/
+|
+├── deisgn-pattern-practice/
+|   |
+|   ├── gcr-codebase/
+|   |   └── LibraryManagementSystem/
+|
+├── multi-threading-practice/
+|   |
+|   └── gcr-codebase/
+|
 ├── reviews/  
 
 ```
@@ -330,11 +369,184 @@ Topic: Sorting Techniques & OOP Mini Project
 Topic: Searching Algorithms & OOP Mini Project
 
 - Learned about Linear Search and Binary Search techniques.
-
 - Practiced problems involving search algorithms, StringBuilder, StringBuffer, and FileReader.
-
 - Progressed the Address Book System project up to Use Case 5.
 ```
+
+📅 Week 6: DSA Practice & Collections Fundamentals
+
+📅 19-Jan-2026 (Monday)
+
+```
+Runtime Analysis & Scenario based DSA problems
+
+- Solved complex scenario-based questions requiring DSA problem-solving approaches
+- Deepened knowledge of Runtime Analysis
+- Strengthened analytical and logical reasoning skills through challenging problems
+```
+
+📅 20-Jan-2026 (Tuesday)
+
+```
+Generics fundamentals & Scenario based DSA problems
+
+- Solved complex scenario-based questions requiring DSA problem-solving approaches
+- Deepened knowledge of Generics in Collection
+- Strengthened analytical and logical reasoning skills through challenging problems
+```
+
+📅 21-Jan-2026 (Wednesday)
+
+```
+Generics based problems
+
+- Solved complex scenario-based questions requiring Generics problem-solving approaches
+- Deepened knowledge of Generics in Collection
+- Improved understanding of collections and exceptions
+```
+
+📅 22-Jan-2026 (Thursday)
+
+```
+Collections & Scenerio based problem
+
+- Solved complex scenario-based questions requiring collections problem-solving approaches
+- Solved problems based on Collection
+- Improved understanding of collections
+```
+
+📅 23-Jan-2026 (Friday)
+
+```
+- Java streams & Scenerio based problem
+- Solved complex scenario-based questions requiring collections problem-solving approaches
+- Solved problems based on java streams
+```
+
+📅  Week 7: Collections
+
+📅 26-Jan-2026 (Monday)
+
+```
+- Created JavaStreams directory in collections-practice
+- Implemented Stream API examples: File Copy, Serialization, Pipe, etc.
+= Practiced stream-based file and data handling in gcr-codebase/JavaStreams
+```
+
+📅 27-Jan-2026 (Tuesday)
+
+```
+- Created ExceptionHandling directory in collections-practice
+- Implemented examples using try-catch, finally, throw, and throws
+- Practiced Custom Exceptions (InvalidAgeException, InsufficientBalanceException) and Nested Try-Catch
+```
+
+📅 28-Feb-2026 (Wednesday)
+
+```
+- Implemented Core Java scenarios: LexicalTwist (Vowels/Consonants logic) and CleanseAndInvert (String manipulation)
+- Practiced scenario-based problems in Core Java folder
+- Implemented Collections scenarios: Restaurant (HashMap & Exception Handling) and BackupScheduler (Priority Queue)
+```
+
+📅 30-jan-2026 (Friday)
+
+```
+- Created Regex directory in collections-practice
+- Implemented RegexPractice: username validation, email extraction, censoring, and pattern matching
+- Created JUnit directory with Maven structure and tested classes: Calculator, StringUtils, ListManager, DatabaseConnection, FileProcessor, EvenTest, ExceptionTest
+```
+
+📅 Week 8: Advanced Collections & Scenarios
+
+📅 02-Feb-2026 (Monday)
+
+```
+- Implemented StreamBuzz (Creator Statistics) using Collections
+- Practiced Reflection API with 12 examples (methods, fields, proxy, DI)
+- Implemented 12 Annotation examples including built-in and custom annotations
+```
+
+📅 03-Feb-2026 (Tuesday)
+
+```
+- Implemented DSA scenarios: RobotAuditSystem and FlightManagementSystem
+- Practiced Custom Exceptions and Exception Handling
+- Created Java 8 features branch
+- Implemented 10 Stream API examples (TopMovies, DoctorAvailability, InsuranceClaims, etc.)
+```
+
+📅 04-Feb-2026 (Wednesday)
+
+```
+- Implemented Lambda Expression examples (SmartLight, ShopSort, AlertFilter, etc.)
+- Practiced Functional Interfaces with 13 examples
+- Implemented custom, static, default, and marker interfaces
+```
+
+📅 05-Feb-2026 (Thursday)
+
+```
+- Implemented Collectors examples: Grouping, Counting, Summing, Averaging, Summarizing
+- Practiced StudentGroup, WordFreq, OrderSum, AvgSalary, BookStats
+- Implemented Collections scenarios:
+      FoodDeliverySystem (Queue)
+      ClassroomAttendance (Set)
+      LeaveManagement (Map)
+      MusicPlaylist (LinkedList & Stack)
+```
+
+📅 07-Feb-2026 (Saturday)
+
+```
+- Implemented VesselNavigation scenario
+- Developed Vessel, VesselUtil, and UserInterface modules
+- Practiced vessel performance tracking
+```
+
+📅 08-Feb-2026 (Sunday)
+
+```
+- Implemented LibraryManagementSystem using Observer Pattern
+- Practiced Factory Pattern with UserFactory
+- Implemented Multithreading systems:
+- BankSystem (Concurrent Transactions)
+```
+
+📅 09-Feb-2026 (Monday)
+
+```
+- Refactored HealthClinicApp project structure
+- Implemented "View All Patients" feature
+- Implemented Collections scenarios
+- JobPortal (Custom Exceptions)
+- EventAnalyzer (Streams & Maps)
+- BankAccount (JUnit Testing)
+```
+
+
+📅 Week 9: Advanced Scenarios & System Design
+
+-----
+Employee Wage & Address Book Enhancements
+
+16-Feb-2026 (Sunday):
+
+```
+Scenario-Based: Worked on Employee Wage computation problem involving procedural and object-oriented approaches.
+```
+
+17-Feb-2026 (Monday):
+
+```
+Address Book System: Implemented advanced features (UC11-UC18) for the AddressBook system in oops-practice/scenario-based:
+Sorting: Added functionality to sort contacts by City, State, and Zip code.
+File IO: Implemented manual Read/Write operations for Text (.txt), CSV (.csv), and JSON (.json) files without external libraries.
+JSON Server: Integrated with a local JSON Server using Java's HttpClient for RESTful operations (GET/POST).
+Database: Implemented JDBC connectivity to MySQL for persistent storage of contact details.
+Multi-threading: Refactored all IO operations to execute in separate threads for non-blocking UI.
+```
+
 
 🎯 Learning Outcomes
 
@@ -398,4 +610,10 @@ This repository will continue to evolve as I progress further in my BridgeLabz j
 
 
 *Keep Learning & Keep Building!*
+
+
+
+
+
+
 
