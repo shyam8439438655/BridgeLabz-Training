@@ -160,7 +160,9 @@ Working with the Health Clinic Database Schema
 📅 Day 4: Health Clinic Management System (JDBC + MySQL) (05/08/26)
 
 ### Project Overview
-In Day 4, I developed a Health Clinic Management System using Java JDBC and MySQL. The main purpose of this project is to manage clinic-related data like patients, doctors, appointments, rooms, and medical records.
+In Day 4, I developed a Health Clinic Management System using Java JDBC and MySQL. T
+he main purpose of this project is to manage clinic-related data like patients, doctors,
+appointments, rooms, and medical records.
 
 ### Technologies Used
 - Java
