@@ -24,6 +24,12 @@ Database-Programming/
 │   ├── Normalization/
 │   └── SQL-Scripts/
 │
+├── Day-3/
+│   ├── SQL-Joins/
+│   ├── Stored-Procedures/
+│   ├── Triggers/
+│   └── SQL-Scripts/
+│
 └── README.md
 ```
 
@@ -58,7 +64,7 @@ Database-Programming/
 - Executing Basic SQL Queries
 ```
 
-📅 Day 2 – ER Diagram, Indexing & Normalization (02/08/26)
+📅 Day 2 – ER Diagram, Indexing & Normalization (03/08/26)
 
 ```
 🎯 Topic Covered
@@ -91,4 +97,51 @@ Creating Tables based on ER Diagrams
 Understanding Index Creation
 Analyzing Query Performance with Indexes
 Applying Normalization Rules to Database Tables
+```
+
+📅 Day 3 – SQL Joins, Stored Procedures & Triggers (04/08/26)
+
+```
+🎯 Topic Covered
+
+SQL Joins, Stored Procedures & Triggers
+
+📖 Content Covered
+
+SQL Joins
+INNER JOIN
+LEFT JOIN
+RIGHT JOIN
+FULL OUTER JOIN
+SELF JOIN
+CROSS JOIN
+Multiple Table JOIN
+Stored Procedures
+Why Stored Procedures
+Creating Procedures
+Calling Procedures
+IN Parameter
+OUT Parameter
+INOUT Parameter
+Error Handling
+Triggers
+BEFORE INSERT
+AFTER INSERT
+BEFORE UPDATE
+AFTER UPDATE
+BEFORE DELETE
+AFTER DELETE
+
+🛠️ Practical Work
+
+Writing SQL queries using different types of JOINs
+Combining data from multiple related tables
+Creating and calling Stored Procedures
+Working with IN, OUT and INOUT parameters
+Implementing Error Handling in Stored Procedures
+Creating BEFORE and AFTER Triggers
+Using Triggers for data validation and business rules
+Creating Audit Triggers for tracking database changes
+Maintaining Visit History using Triggers
+Working with the Health Clinic Database Schema
 ```
