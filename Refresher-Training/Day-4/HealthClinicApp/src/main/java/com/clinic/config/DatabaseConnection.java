@@ -10,7 +10,7 @@ public class DatabaseConnection {
     private static final String PASSWORD = "Shyam@123";
 
     public static Connection getConnection() throws SQLException {
-        // You might need to change credentials based on your local MySQL setup
+
         return DriverManager.getConnection(URL, USER, PASSWORD);
     }
 }
