@@ -30,6 +30,16 @@ Database-Programming/
 │   ├── Triggers/
 │   └── SQL-Scripts/
 │
+├── Day-4/
+│   ├── JDBC/
+│   ├── CRUD-Operations/
+│   ├── Transaction-Management/
+│   ├── Connection-Pooling/
+│   └── Health-Clinic-Management-System/
+│       ├── Database-Schema/
+│       ├── Java-Code/
+│       └── SQL-Scripts/
+│
 └── README.md
 ```
 
@@ -144,4 +154,63 @@ Using Triggers for data validation and business rules
 Creating Audit Triggers for tracking database changes
 Maintaining Visit History using Triggers
 Working with the Health Clinic Database Schema
+```
+
+```
+📅 Day 4: Health Clinic Management System (JDBC + MySQL) (05/08/26)
+
+### Project Overview
+In Day 4, I developed a Health Clinic Management System using Java JDBC and MySQL. T
+he main purpose of this project is to manage clinic-related data like patients, doctors,
+appointments, rooms, and medical records.
+
+### Technologies Used
+- Java
+- JDBC (Java Database Connectivity)
+- MySQL Database
+- MySQL Workbench
+- Git & GitHub
+
+### Database Implementation
+Created a relational database named `health_clinic_db` with multiple tables:
+
+- Patients
+- Doctors
+- Appointments
+- Rooms
+- Doctor_Room
+- Patient Phones
+- Medical Records
+
+Implemented relationships between tables using:
+- Primary Keys
+- Foreign Keys
+- Constraints
+
+### JDBC Concepts Implemented
+- Database connection using JDBC
+- Driver loading
+- Connection URL configuration
+- CRUD Operations:
+  - Create
+  - Read
+  - Update
+  - Delete
+
+### SQL Concepts Covered
+- Joins
+- Stored Procedures
+- Triggers
+- Indexing
+- Query Optimization using EXPLAIN
+- Normalization (1NF, 2NF, 3NF)
+
+### Key Learnings
+- How Java application connects with MySQL database using JDBC.
+- How to execute SQL queries from Java code.
+- How database design improves performance and data consistency.
+- Understanding of transactions and database relationships.
+
+### Project Status
+Completed successfully with database creation, JDBC connectivity, and SQL operations.
 ```
