@@ -214,3 +214,34 @@ Implemented relationships between tables using:
 ### Project Status
 Completed successfully with database creation, JDBC connectivity, and SQL operations.
 ```
+
+```
+📅 Day 5 - Java Servlet
+Overview
+Learned the fundamentals of Java Servlets and developed a simple web application using Apache Tomcat.
+
+Topics Covered
+Introduction to Java Servlets
+Creating a Servlet Project using Maven
+Configuring Apache Tomcat Server
+Adding Servlet API dependency in Maven (pom.xml)
+Creating and Running the First Servlet
+Understanding Servlet URL Mapping
+Web Container Architecture
+Web Application Directory Structure
+Working with HTML, JSP, and Servlets
+Handling HTTP Requests and Responses
+
+### Key Learnings
+
+ - Servlet Lifecycle
+ - HttpServlet
+ - doGet() and doPost()
+ - HttpServletRequest
+ - HttpServletResponse
+ - @WebServlet Annotation
+ - URL Mapping
+ - Web Container
+ - Maven Dependency Management
+```
+
