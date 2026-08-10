@@ -39,6 +39,33 @@ Database-Programming/
 │       ├── Database-Schema/
 │       ├── Java-Code/
 │       └── SQL-Scripts/
+├── Day-5/
+│   ├── Java-Servlets/
+│   ├── Servlet-Project/
+│   ├── Apache-Tomcat-Configuration/
+│   ├── Servlet-Lifecycle/
+│   ├── HTTP-Request-Response/
+│   ├── URL-Mapping/
+│   └── Maven-Dependency-Management/
+│
+├── Day-6/
+│
+│   ├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/bridgelabz/greetingsApp/
+│   │   │       ├── controller/
+│   │   │       ├── service/
+│   │   │       ├── repository/
+│   │   │       ├── entity/
+│   │   │       └── GreetingsAppApplication.java
+│   │   │
+│   │   └── resources/
+│   │       └── application.properties
+│   │
+│   └── test/
+│
+├── pom.xml
 │
 └── README.md
 ```
@@ -216,7 +243,7 @@ Completed successfully with database creation, JDBC connectivity, and SQL operat
 ```
 
 ```
-📅 Day 5 - Java Servlet
+📅 Day 5 - Java Servlet  (06/08/26)
 Overview
 Learned the fundamentals of Java Servlets and developed a simple web application using Apache Tomcat.
 
@@ -245,3 +272,26 @@ Handling HTTP Requests and Responses
  - Maven Dependency Management
 ```
 
+📅 Day 6  Greetings App  (07/08/26)
+
+```
+# Greetings App
+
+## Overview
+
+Greetings App is a Spring Boot REST API application that provides CRUD operations for managing greeting messages.
+
+The application follows a layered architecture:
+
+Controller → Service → Repository → Database
+
+
+## Technologies Used
+
+- Java
+- Spring Boot
+- Spring Web
+- Spring Data JPA
+- H2 Database
+- Maven
+```
