@@ -39,6 +39,33 @@ Database-Programming/
 │       ├── Database-Schema/
 │       ├── Java-Code/
 │       └── SQL-Scripts/
+├── Day-5/
+│   ├── Java-Servlets/
+│   ├── Servlet-Project/
+│   ├── Apache-Tomcat-Configuration/
+│   ├── Servlet-Lifecycle/
+│   ├── HTTP-Request-Response/
+│   ├── URL-Mapping/
+│   └── Maven-Dependency-Management/
+│
+├── Day-6/
+│
+│   ├── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/bridgelabz/greetingsApp/
+│   │   │       ├── controller/
+│   │   │       ├── service/
+│   │   │       ├── repository/
+│   │   │       ├── entity/
+│   │   │       └── GreetingsAppApplication.java
+│   │   │
+│   │   └── resources/
+│   │       └── application.properties
+│   │
+│   └── test/
+│
+├── pom.xml
 │
 └── README.md
 ```
@@ -213,4 +240,58 @@ Implemented relationships between tables using:
 
 ### Project Status
 Completed successfully with database creation, JDBC connectivity, and SQL operations.
+```
+
+```
+📅 Day 5 - Java Servlet  (06/08/26)
+Overview
+Learned the fundamentals of Java Servlets and developed a simple web application using Apache Tomcat.
+
+Topics Covered
+Introduction to Java Servlets
+Creating a Servlet Project using Maven
+Configuring Apache Tomcat Server
+Adding Servlet API dependency in Maven (pom.xml)
+Creating and Running the First Servlet
+Understanding Servlet URL Mapping
+Web Container Architecture
+Web Application Directory Structure
+Working with HTML, JSP, and Servlets
+Handling HTTP Requests and Responses
+
+### Key Learnings
+
+ - Servlet Lifecycle
+ - HttpServlet
+ - doGet() and doPost()
+ - HttpServletRequest
+ - HttpServletResponse
+ - @WebServlet Annotation
+ - URL Mapping
+ - Web Container
+ - Maven Dependency Management
+```
+
+📅 Day 6  Greetings App  (07/08/26)
+
+```
+# Greetings App
+
+## Overview
+
+Greetings App is a Spring Boot REST API application that provides CRUD operations for managing greeting messages.
+
+The application follows a layered architecture:
+
+Controller → Service → Repository → Database
+
+
+## Technologies Used
+
+- Java
+- Spring Boot
+- Spring Web
+- Spring Data JPA
+- H2 Database
+- Maven
 ```
