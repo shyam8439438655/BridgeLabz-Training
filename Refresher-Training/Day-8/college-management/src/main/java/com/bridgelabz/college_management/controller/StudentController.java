@@ -1,107 +1,75 @@
 package com.bridgelabz.college_management.controller;
 
-
-import com.bridgelabz.college_management.entity.Student;
+import com.bridgelabz.college_management.dto.StudentDTO;
 import com.bridgelabz.college_management.service.StudentService;
-
-import jakarta.validation.Valid;
-
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-
-
 @RestController
 @RequestMapping("/students")
 public class StudentController {
 
-
     private final StudentService studentService;
 
-
-
     public StudentController(StudentService studentService) {
-
         this.studentService = studentService;
     }
 
-
-
-    // CREATE STUDENT
     @PostMapping
-    public ResponseEntity<Student> addStudent(
-            @Valid @RequestBody Student student) {
+    public ResponseEntity<StudentDTO> addStudent(
+            @RequestBody StudentDTO studentDTO) {
 
-        Student savedStudent = studentService.saveStudent(student);
+        StudentDTO savedStudent =
+                studentService.saveStudent(studentDTO);
 
-        return new ResponseEntity<>(savedStudent, HttpStatus.CREATED);
+        return new ResponseEntity<>(
+                savedStudent,
+                HttpStatus.CREATED
+        );
     }
 
-
-
-
-    // GET ALL STUDENTS
     @GetMapping
-    public ResponseEntity<List<Student>> getAllStudents() {
+    public ResponseEntity<List<StudentDTO>> getAllStudents() {
 
-        List<Student> students = studentService.getAllStudents();
-
-        return new ResponseEntity<>(students, HttpStatus.OK);
+        return new ResponseEntity<>(
+                studentService.getAllStudents(),
+                HttpStatus.OK
+        );
     }
 
-
-
-
-
-    // GET STUDENT BY ID
     @GetMapping("/{id}")
-    public ResponseEntity<Student> getStudentById(
+    public ResponseEntity<StudentDTO> getStudentById(
             @PathVariable Integer id) {
 
-
-        Student student = studentService.getStudentById(id);
-
-        return new ResponseEntity<>(student, HttpStatus.OK);
+        return new ResponseEntity<>(
+                studentService.getStudentById(id),
+                HttpStatus.OK
+        );
     }
 
-
-
-
-
-    // UPDATE STUDENT
     @PutMapping("/{id}")
-    public ResponseEntity<Student> updateStudent(
+    public ResponseEntity<StudentDTO> updateStudent(
             @PathVariable Integer id,
-            @Valid @RequestBody Student student) {
+            @RequestBody StudentDTO studentDTO) {
 
-
-        Student updatedStudent =
-                studentService.updateStudent(id, student);
-
-
-        return new ResponseEntity<>(updatedStudent, HttpStatus.OK);
+        return new ResponseEntity<>(
+                studentService.updateStudent(id, studentDTO),
+                HttpStatus.OK
+        );
     }
 
-
-
-
-
-    // DELETE STUDENT
     @DeleteMapping("/{id}")
     public ResponseEntity<String> deleteStudent(
             @PathVariable Integer id) {
 
-
         studentService.deleteStudent(id);
-
 
         return new ResponseEntity<>(
                 "Student deleted successfully",
                 HttpStatus.OK
         );
     }
-
 }

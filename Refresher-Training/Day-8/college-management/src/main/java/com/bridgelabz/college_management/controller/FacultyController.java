@@ -1,85 +1,75 @@
 package com.bridgelabz.college_management.controller;
 
-
-import com.bridgelabz.college_management.entity.Faculty;
+import com.bridgelabz.college_management.dto.FacultyDTO;
 import com.bridgelabz.college_management.service.FacultyService;
-import jakarta.validation.Valid;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-
 @RestController
-@RequestMapping("/faculty")
+@RequestMapping("/faculties")
 public class FacultyController {
-
 
     private final FacultyService facultyService;
 
-
-    public FacultyController(FacultyService facultyService){
-
+    public FacultyController(FacultyService facultyService) {
         this.facultyService = facultyService;
     }
 
-
-
-    // CREATE
-
     @PostMapping
-    public Faculty addFaculty(
-            @Valid @RequestBody Faculty faculty){
+    public ResponseEntity<FacultyDTO> addFaculty(
+            @RequestBody FacultyDTO facultyDTO) {
 
-        return facultyService.saveFaculty(faculty);
+        FacultyDTO savedFaculty =
+                facultyService.saveFaculty(facultyDTO);
+
+        return new ResponseEntity<>(
+                savedFaculty,
+                HttpStatus.CREATED
+        );
     }
-
-
-
-    // GET ALL
 
     @GetMapping
-    public List<Faculty> getAllFaculty(){
+    public ResponseEntity<List<FacultyDTO>> getAllFaculties() {
 
-        return facultyService.getAllFaculty();
+        return new ResponseEntity<>(
+                facultyService.getAllFaculties(),
+                HttpStatus.OK
+        );
     }
-
-
-
-
-    // GET BY ID
 
     @GetMapping("/{id}")
-    public Faculty getFacultyById(
-            @PathVariable Integer id){
+    public ResponseEntity<FacultyDTO> getFacultyById(
+            @PathVariable Integer id) {
 
-        return facultyService.getFacultyById(id);
+        return new ResponseEntity<>(
+                facultyService.getFacultyById(id),
+                HttpStatus.OK
+        );
     }
-
-
-
-
-    // UPDATE
 
     @PutMapping("/{id}")
-    public Faculty updateFaculty(
+    public ResponseEntity<FacultyDTO> updateFaculty(
             @PathVariable Integer id,
-            @RequestBody Faculty faculty){
+            @RequestBody FacultyDTO facultyDTO) {
 
-        return facultyService.updateFaculty(id,faculty);
+        return new ResponseEntity<>(
+                facultyService.updateFaculty(id, facultyDTO),
+                HttpStatus.OK
+        );
     }
 
-
-
-
-    // DELETE
-
     @DeleteMapping("/{id}")
-    public String deleteFaculty(
-            @PathVariable Integer id){
+    public ResponseEntity<String> deleteFaculty(
+            @PathVariable Integer id) {
 
         facultyService.deleteFaculty(id);
 
-        return "Faculty deleted successfully";
+        return new ResponseEntity<>(
+                "Faculty deleted successfully",
+                HttpStatus.OK
+        );
     }
-
 }
