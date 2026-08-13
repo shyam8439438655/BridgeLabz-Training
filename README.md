@@ -64,9 +64,54 @@ Database-Programming/
 │   │       └── application.properties
 │   │
 │   └── test/
-│
 ├── pom.xml
 │
+├── Day-7/
+│
+│   └── ContactApp/
+│       │
+│       ├── src/
+│       │   ├── main/
+│       │   │   ├── java/
+│       │   │   │   └── com/contactApp/contactApp/
+│       │   │   │       ├── controller/
+│       │   │   │       ├── service/
+│       │   │   │       ├── repository/
+│       │   │   │       ├── entity/
+│       │   │   │       ├── dto/
+│       │   │   │       ├── exception/
+│       │   │   │       └── ContactAppApplication.java
+│       │   │   │
+│       │   │   └── resources/
+│       │   │       └── application.properties
+│       │   │
+│       │   └── test/
+│       │
+│       ├── pom.xml
+│
+├── Day-8/
+│
+│   └── College-Management/
+│       │
+│       ├── src/
+│       │   ├── main/
+│       │   │   ├── java/
+│       │   │   │   └── com/bridgelabz/collegeManagement/
+│       │   │   │       ├── controller/
+│       │   │   │       ├── service/
+│       │   │   │       ├── repository/
+│       │   │   │       ├── entity/
+│       │   │   │       ├── dto/
+│       │   │   │       ├── annotation/
+│       │   │   │       ├── validator/
+│       │   │   │       └── CollegeManagementApplication.java
+│       │   │   │
+│       │   │   └── resources/
+│       │   │       └── application.properties
+│       │   │
+│       │   └── test/
+│       │
+│       ├── pom.xml
 └── README.md
 ```
 
@@ -294,4 +339,79 @@ Controller → Service → Repository → Database
 - Spring Data JPA
 - H2 Database
 - Maven
+```
+
+```
+📅 Day 7 Contact App  (10/08/26)
+
+## Overview
+
+Contact App is a Spring Boot REST API application used to manage contact details.
+
+The application provides CRUD operations for creating, retrieving, updating, and deleting contact information.
+
+The application follows a layered architecture:
+
+Controller → Service → Repository → Database
+
+## Technologies Used
+
+- Java
+- Spring Boot
+- Spring Web
+- Spring Data JPA
+- Hibernate
+- H2 Database
+- Maven
+
+## Features Implemented
+
+- Add new contact
+- Get all contacts
+- Get contact by ID
+- Update contact details
+- Delete contact
+- Custom exception handling
+- DTO based request and response handling
+
+## Project Structure
+```
+
+
+
+📅 Day 7 College Management App (11/08/26)
+
+```
+## Overview
+
+College Management App is a Spring Boot REST API application used to manage student and faculty information.
+
+The application provides CRUD operations for managing students and faculty details.
+
+The application follows a layered architecture:
+
+Controller → Service → Repository → Database
+
+## Technologies Used
+
+- Java
+- Spring Boot
+- Spring Web
+- Spring Data JPA
+- Hibernate
+- MySQL / H2 Database
+- Maven
+- Validation API
+
+## Features Implemented
+
+- Student management
+- Faculty management
+- Create, Read, Update, Delete operations
+- Entity and Repository mapping
+- Custom validation using annotations
+- Exception handling
+- Database integration using JPA
+
+## Project Structure
 ```
