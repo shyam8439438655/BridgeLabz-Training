@@ -112,6 +112,41 @@ Database-Programming/
 │       │   └── test/
 │       │
 │       ├── pom.xml
+├── Day-10/
+│   ├── Spring-Boot-Advanced/
+│   ├── REST-API/
+│   ├── Validation/
+│   ├── Exception-Handling/
+│   ├── Spring-Data-JPA/
+│   ├── H2-Database/
+│   ├── Postman-API-Testing/
+│   └── Project/
+│       ├── src/
+│       │   ├── main/
+│       │   │   ├── java/
+│       │   │   └── resources/
+│       │   │       └── application.properties
+│       │   └── test/
+│       │
+│       └── pom.xml
+├── Day-10/
+│   ├── Spring-Boot-Advanced/
+│   ├── REST-API/
+│   ├── Validation/
+│   ├── Exception-Handling/
+│   ├── DTO-and-Mapper/
+│   ├── Spring-Data-JPA/
+│   ├── H2-Database/
+│   ├── Postman-API-Testing/
+│   └── Project/
+│       ├── src/
+│       │   ├── main/
+│       │   │   ├── java/
+│       │   │   └── resources/
+│       │   │       └── application.properties
+│       │   └── test/
+│       │
+│       └── pom.xml
 └── README.md
 ```
 
@@ -379,7 +414,7 @@ Controller → Service → Repository → Database
 
 
 
-📅 Day 7 College Management App (11/08/26)
+📅 Day 8 College Management App (11/08/26)
 
 ```
 ## Overview
