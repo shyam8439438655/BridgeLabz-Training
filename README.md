@@ -112,6 +112,64 @@ Database-Programming/
 │       │   └── test/
 │       │
 │       ├── pom.xml
+├── Day-9/
+│   ├── Spring-Boot-Advanced/
+│   ├── REST-API/
+│   ├── Validation/
+│   ├── Exception-Handling/
+│   ├── Spring-Data-JPA/
+│   ├── H2-Database/
+│   ├── Postman-API-Testing/
+│   └── Project/
+│       ├── src/
+│       │   ├── main/
+│       │   │   ├── java/
+│       │   │   └── resources/
+│       │   │       └── application.properties
+│       │   └── test/
+│       │
+│       └── pom.xml
+├── Day-10/
+│   ├── Spring-Boot-Advanced/
+│   ├── REST-API/
+│   ├── Validation/
+│   ├── Exception-Handling/
+│   ├── DTO-and-Mapper/
+│   ├── Spring-Data-JPA/
+│   ├── H2-Database/
+│   ├── Postman-API-Testing/
+│   └── Project/
+│       ├── src/
+│       │   ├── main/
+│       │   │   ├── java/
+│       │   │   └── resources/
+│       │   │       └── application.properties
+│       │   └── test/
+│       │
+│       └── pom.xml
+|
+├── Day-11/
+│   └── Payroll-App/
+│       │
+│       ├── src/
+│       │   ├── main/
+│       │   │   ├── java/
+│       │   │   │   └── com/example/payroll/
+│       │   │   │       ├── controller/
+│       │   │   │       ├── service/
+│       │   │   │       ├── repository/
+│       │   │   │       ├── entity/
+│       │   │   │       ├── dto/
+│       │   │   │       ├── exception/
+│       │   │   │       └── PayrollApplication.java
+│       │   │   │
+│       │   │   └── resources/
+│       │   │       └── application.properties
+│       │   │
+│       │   └── test/
+│       │
+│       ├── pom.xml
+│       └── README.md
 └── README.md
 ```
 
@@ -379,7 +437,7 @@ Controller → Service → Repository → Database
 
 
 
-📅 Day 7 College Management App (11/08/26)
+📅 Day 8 College Management App (11/08/26)
 
 ```
 ## Overview
@@ -414,4 +472,148 @@ Controller → Service → Repository → Database
 - Database integration using JPA
 
 ## Project Structure
+```
+```
+# 📅 Day 9 Contact App (12/08/26)
+
+## Overview
+
+Contact App is a Spring Boot REST API application used to manage contact details.
+
+The application provides CRUD operations for creating, retrieving, updating, and deleting contact information.
+
+The application follows a layered architecture:
+
+Controller → Service → Repository → Database
+
+## Technologies Used
+
+* Java
+* Spring Boot
+* Spring Web
+* Spring Data JPA
+* Hibernate
+* H2 Database
+* Maven
+* Lombok
+* Jakarta Validation
+
+## Features Implemented
+
+* Add new contact
+* Get all contacts
+* Get contact by ID
+* Search contact by name
+* Find contact by mobile number
+* Update contact details
+* Delete contact
+* DTO based request and response handling
+* Request validation
+* Custom exception handling
+* Global exception handling
+
+## Project Structure
+
+* **Controller** – Handles HTTP requests and responses.
+* **Service** – Contains the business logic.
+* **Repository** – Performs database operations using JPA.
+* **Entity** – Represents contact data in the database.
+* **DTO** – Handles request and response data.
+* **Exception** – Handles custom and global exceptions.
+```
+
+```
+# 📅 Day 10 Contact App (13/08/26)
+
+## Overview
+
+Contact App is a Spring Boot REST API application used to manage contact details.
+
+The application provides CRUD operations for creating, retrieving, updating, and deleting contact information.
+
+The application follows a layered architecture:
+
+Controller → Service → Mapper → Repository → Database
+
+## Technologies Used
+
+* Java
+* Spring Boot
+* Spring Web
+* Spring Data JPA
+* Hibernate
+* H2 Database
+* Maven
+* Lombok
+* Jakarta Validation
+
+## Features Implemented
+
+* Add new contact
+* Get all contacts
+* Get contact by ID
+* Search contact by name
+* Find contact by mobile number
+* Update contact details
+* Delete contact
+* DTO based request and response handling
+* Mapper for converting DTO and Entity
+* Request validation
+* Custom exception handling
+* Global exception handling
+
+## Project Structure
+
+* **Controller** – Handles HTTP requests and responses.
+* **Service** – Contains the business logic.
+* **Repository** – Performs database operations using JPA.
+* **Entity** – Represents contact data in the database.
+* **DTO** – Handles request and response data.
+* **Mapper** – Converts RequestDTO to Entity and Entity to ResponseDTO.
+* **Exception** – Handles custom and global exceptions.
+* **H2 Database** – Stores contact information.
+```
+
+```
+📅 Day 11 Payroll App (14/08/26)
+Overview
+
+Payroll App is a Spring Boot REST API application used to manage employee details and generate payroll information.
+
+The application provides APIs for adding employees, retrieving employee details, updating employee information, and generating payroll records.
+
+The application follows a layered architecture:
+
+Controller → Service → Repository → Database
+
+Technologies Used
+Java
+Spring Boot
+Spring Web
+Spring Data JPA
+Hibernate
+H2 Database
+Maven
+Lombok
+Jakarta Validation
+Features Implemented
+Add new employee
+Get employee details
+Update employee details
+Delete employee
+Generate payroll
+Store payroll information
+DTO based request handling
+Request validation
+Custom exception handling
+Global exception handling
+Database operations using Spring Data JPA
+Project Structure
+Controller – Handles HTTP requests and responses.
+Service – Contains the business logic for employees and payroll.
+Repository – Performs database operations using Spring Data JPA.
+Entity – Represents employee and payroll data in the database.
+DTO – Handles request data received from the client.
+Exception – Handles custom exceptions and provides common error responses.
+H2 Database – Stores employee and payroll information.
 ```
