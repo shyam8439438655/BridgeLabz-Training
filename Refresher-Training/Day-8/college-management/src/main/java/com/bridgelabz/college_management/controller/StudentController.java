@@ -31,6 +31,16 @@ public class StudentController {
         );
     }
 
+    @GetMapping("/search")
+    public ResponseEntity<List<StudentDTO>> searchByFirstName(
+            @RequestParam String firstName) {
+
+        return ResponseEntity.ok(
+                studentService.searchByFirstName(firstName)
+        );
+    }
+
+
     @GetMapping
     public ResponseEntity<List<StudentDTO>> getAllStudents() {
 

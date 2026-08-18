@@ -38,6 +38,14 @@ public class StudentService {
         return convertToDTO(savedStudent);
     }
 
+
+    // SEARCH BY FIRST NAME
+    public List<StudentDTO> searchByFirstName(String firstName) {
+        return repository.findByFirstNameContainingIgnoreCase(firstName)
+                .stream()
+                .map(this::convertToDTO)
+                .toList();
+    }
     // READ ALL
     public List<StudentDTO> getAllStudents() {
 
