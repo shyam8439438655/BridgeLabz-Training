@@ -647,3 +647,57 @@ Global Exception Handler
 HTTP Status Codes
 Postman API Testing
 ```
+
+```
+📅 Day 13 – Spring Boot Profiles (18/08/26)
+
+Employee Payroll Application
+
+Today I learned and implemented Spring Boot Profiles in the Employee Payroll Application.
+
+What I Learned
+
+ - What are Spring Boot Profiles
+ - Why profiles are used
+ - Environment-specific configuration
+ - application.yml
+ - application-dev.yml
+ - application-prod.yml
+ - Activating a profile using spring.profiles.active
+
+Implementation
+Previously, the application configuration was maintained in a single application.properties file.
+```
+
+```
+📅 Day 14 – Payroll Operations with Spring Profiles (19/08/26)
+
+## Employee Payroll Application
+
+Today I continued working on the Employee Payroll Application after implementing Spring Boot Profiles.
+
+## Work Done
+
+- Tested the application with the `dev` profile.
+- Connected the application with the development MySQL database.
+- Performed CRUD operations on Employee and Payroll data.
+- Tested REST APIs using Postman.
+- Verified that the application correctly loads the configuration from the active profile.
+- Checked database records after performing operations.
+
+## Profile Flow
+
+```text
+Client / Postman
+       ↓
+Spring Boot Application
+       ↓
+Active Profile: dev
+       ↓
+application-dev.yml
+       ↓
+MySQL Database
+       ↓
+payroll_db
+
+```
