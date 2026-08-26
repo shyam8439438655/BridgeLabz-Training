@@ -4,26 +4,23 @@ import jakarta.persistence.*;
 import lombok.*;
 
 @Entity
-@Table(name = "note_labels")
+@Table(name = "collaborators")
 @Getter
 @Setter
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class NoteLabel {
+public class Collaborator {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
 
-    private String label;
-
-    // UC6 doc field: isDeleted (soft-delete flag)
-    @Builder.Default
-    @Column(name = "is_deleted")
-    private boolean deleted = false;
+    @ManyToOne
+    @JoinColumn(name = "note_id")
+    private Note note;
 
     @ManyToOne
     @JoinColumn(name = "user_id")
-    private User owner;
+    private User user;
 }
